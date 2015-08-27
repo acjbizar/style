@@ -28,3 +28,10 @@ input[type=hidden] {
 .hidden {
   display: none;
 }
+
+/* Complex selectors */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
