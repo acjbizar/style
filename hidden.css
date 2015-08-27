@@ -1,0 +1,30 @@
+
+/* Element selectors */
+
+base,
+datalist,
+head,
+link,
+menuitem,
+meta,
+param,
+script,
+source,
+style,
+template,
+title {
+  display: none;
+}
+
+/* Attribute selectors */
+
+[hidden],
+input[type=hidden] {
+  display: none;
+}
+
+/* Class selectors */
+
+.hidden {
+  display: none;
+}
