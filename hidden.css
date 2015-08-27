@@ -12,7 +12,8 @@ script,
 source,
 style,
 template,
-title {
+title,
+track {
   display: none;
 }
 
