@@ -42,13 +42,15 @@ ul {
   display: block;
 }
 
+applet, /* HTML 4 */
 button,
 canvas,
 iframe,
 img,
 input,
+keygen,
 object,
-picture,
+picture, /* Experimental */
 select,
 video {
   display: inline-block;
@@ -64,6 +66,10 @@ col {
 
 colgroup {
   display: table-column-group;
+}
+
+li {
+  display: list-item;
 }
 
 table {
