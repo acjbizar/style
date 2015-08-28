@@ -1,0 +1,46 @@
+/* Element selectors */
+
+ol {
+  list-style-type: decimal;
+}
+
+/* Attribute selectors */
+
+ol[type=1],
+li[type=1] {
+  list-style-type: decimal;
+}
+
+ol[type=a],
+li[type=a] {
+  list-style-type: lower-alpha;
+}
+
+ol[type=A],
+li[type=A] {
+  list-style-type: upper-alpha;
+}
+
+ol[type=i],
+li[type=i] {
+  list-style-type: lower-roman;
+}
+
+ol[type=I],
+li[type=I] {
+  list-style-type: upper-roman;
+}
+
+/* Complex selectors */
+
+ol.traditional > li > ol {
+  list-style-type:lower-latin;
+}
+
+ol.traditional > li > ol > li > ol {
+  list-style-type:lower-roman;
+}
+
+ol.traditional > li > ol > li > ol > li > ol {
+  list-style-type:lower-latin;
+}
