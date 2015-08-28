@@ -1,0 +1,67 @@
+/* Language selectors */
+
+:lang(af),
+:lang(nl),
+:lang(pl) {
+	quotes: '„' '”' '‚' '’';
+}
+
+:lang(bg),
+:lang(cs),
+:lang(de),
+:lang(is),
+:lang(lt),
+:lang(sk),
+:lang(sr),
+:lang(ro) {
+	quotes: '„' '“' '‚' '‘';
+}
+
+:lang(da),
+:lang(hr) {
+	quotes: '»' '«' '›' '‹';
+}
+
+:lang(el),
+:lang(es),
+:lang(sq),
+:lang(tr) {
+	quotes: '«' '»' '‹' '›';
+}
+
+:lang(en),
+:lang(en-GB) {
+	quotes: '‘' '’' '“' '”';
+}
+
+:lang(en-US),
+:lang(ga),
+:lang(pt) {
+	quotes: '‘' '’' '“' '”';
+}
+
+:lang(fi),
+:lang(sv) {
+	quotes: '”' '”' '’' '’';
+}
+
+:lang(fr) {
+	quotes: '« ' ' »' '‹ ' ' ›';
+}
+
+:lang(ja),
+:lang(zh) {
+	quotes: '「' '」' '『' '』';
+}
+
+:lang(nb),
+:lang(no),
+:lang(nn) {
+	quotes: '«' '»' '‘' '’';
+}
+
+:lang(de-CH),
+:lang(fr-CH),
+:lang(it-CH) {
+	quotes: '«' '»' '‹' '›';
+}
