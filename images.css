@@ -1,0 +1,7 @@
+
+/* Element selectors */
+
+img,
+picture {
+  max-width: 100%;
+}
