@@ -5,3 +5,13 @@ img,
 picture {
   max-width: 100%;
 }
+
+/* Attribute selectors */
+
+img[src$=".gif"] {
+  image-rendering: pixelated;
+}
+
+img[src$=".png"] {
+  image-rendering: crisp-edges;
+}
