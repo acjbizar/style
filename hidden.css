@@ -7,6 +7,7 @@ head,
 link,
 menuitem,
 meta,
+nextid,
 param,
 script,
 source,
@@ -28,6 +29,10 @@ input[type=hidden] {
 
 .hidden {
   display: none;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 /* Complex selectors */
