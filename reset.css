@@ -1,6 +1,10 @@
 
 * {
   border: 0;
+  font-family: inherit;
+  font-size: 1em;
+  font-style: inherit;
+  font-weight: inherit;
   list-style: none;
   margin: 0;
   outline: 0;
