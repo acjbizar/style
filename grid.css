@@ -79,6 +79,50 @@
   width: 90%;
 }
 
+.cols2 {
+  column-count: 2;
+}
+
+.cols3 {
+  column-count: 3;
+}
+
+.cols4 {
+  column-count: 4;
+}
+
+.cols5 {
+  column-count: 5;
+}
+
+.cols6 {
+  column-count: 6;
+}
+
+.cols7 {
+  column-count: 7;
+}
+
+.cols8 {
+  column-count: 8;
+}
+
+.cols9 {
+  column-count: 9;
+}
+
+.cols10 {
+  column-count: 10;
+}
+
+.cols11 {
+  column-count: 11;
+}
+
+.cols12 {
+  column-count: 12;
+}
+
 .row {
   clear: both;
 }
