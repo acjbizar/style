@@ -72,6 +72,30 @@ li {
   display: list-item;
 }
 
+rb {
+  display: ruby-base;
+}
+
+rbc {
+  display: ruby-base-container;
+}
+
+rp {
+  display: none;
+}
+
+rt {
+  display: ruby-text;
+}
+
+rtc {
+  display: ruby-text-container;
+}
+
+ruby {
+  display: ruby;
+}
+
 table {
   display: table;
 }
