@@ -34,13 +34,13 @@ li[type=I] {
 /* Complex selectors */
 
 ol > li > ol {
-  list-style-type:lower-latin;
+  list-style-type: lower-latin;
 }
 
 ol > li > ol > li > ol {
-  list-style-type:lower-roman;
+  list-style-type: lower-roman;
 }
 
 ol > li > ol > li > ol > li > ol {
-  list-style-type:lower-latin;
+  list-style-type: lower-latin;
 }
