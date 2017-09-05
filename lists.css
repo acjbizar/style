@@ -42,5 +42,5 @@ ol > li > ol > li > ol {
 }
 
 ol > li > ol > li > ol > li > ol {
-  list-style-type: lower-latin;
+  list-style-type: upper-latin;
 }
